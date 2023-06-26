@@ -42,7 +42,7 @@ export const products = mysqlTable("products", {
     "hiking",
   ])
     .notNull()
-    .default("skateboards"),
+    .default("camping"),
   subcategory: varchar("subcategory", { length: 191 }),
   price: decimal("price", { precision: 10, scale: 2 }).notNull().default("0"),
   inventory: int("inventory").notNull().default(0),
