@@ -22,9 +22,9 @@ export const siteConfig = {
           items: [],
         },
         {
-          title: "Build a Board",
-          href: "/build-a-board",
-          description: "Build your own custom skateboard.",
+          title: "Build a bag",
+          href: "/build-a-bag",
+          description: "Build your bag for a rad trip.",
           items: [],
         },
         {
