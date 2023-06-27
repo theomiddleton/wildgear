@@ -14,5 +14,5 @@ export const proPlan: SubscriptionPlan = {
   description:
     "The Everest plan allows you to create up to 3 stores, and 20 products per store.",
   stripePriceId: env.STRIPE_PRO_STORE_PRICE_ID ?? "",
-  monthlyPrice: 10,
+  monthlyPrice: null,
 }
