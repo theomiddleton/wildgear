@@ -75,7 +75,7 @@ export function ResetPasswordForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="rodneymullen180@gmail.com" {...field} />
+                <Input placeholder="youremail@domain.com" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
