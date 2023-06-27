@@ -123,10 +123,8 @@ export const Icons = {
       strokeLinejoin="round"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="15" r="2" />
-      <circle cx="17" cy="15" r="2" />
-      <path d="M3 9a2 1 0 0 0 2 1h14a2 1 0 0 0 2 -1" />
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M 7 24 L 16 9 L 24 24 Z M 0 24 L 7 13 L 10 19 L 7 24 Z" />
     </svg>
   ),
   nextjs: (props: LucideProps) => (
