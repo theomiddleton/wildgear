@@ -78,7 +78,7 @@ export function VerifyEmailForm() {
               <FormLabel>Verification Code</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="169420"
+                  placeholder="123456"
                   {...field}
                   onChange={(e) => {
                     e.target.value = e.target.value.trim()
